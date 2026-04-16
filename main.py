@@ -5,7 +5,7 @@ import os
 TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
 
-URL = "https://www.car.gr/classifieds/cars/?make=hyundai,toyota,kia,honda,suzuki&year-from=2022&price-to=10000&mileage-to=50000"
+URL = "https://www.car.gr/classifieds/cars/?make=hyundai,toyota,kia,honda,suzuki&year-from=2020&price-to=10000&mileage-to=60000"
 
 def get_ads():
     r = requests.get(URL)
